@@ -1,23 +1,136 @@
-<!--
-Exercicio 2:
-Vamos tentar reproduzir a estrutura de um layout? 
-Escolha um site da sua preferência e tente identificar 
-nele os elementos que vimos hoje (<header>, <footer>,
-<nav>, <article>). Depois, crie um arquivo HTML e use
-as tags de uma forma que você acha que o conteúdo do site
-que você escolheu fique organizado.
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content= "Meu primeiro site">
+  <meta name="author" content="Nat Maglio">
+  <title>Estrutura Loja NBA</title>
+</head>
+<body>
+  <header>
+    <h1>Loja NBA.com</h1>
 
-Coloque o link do site que você se baseou na descriçaão do PR 
+    <nav>
+      <ul>
+        <li><a href="Regatas.html">Regatas</a></li>
+        <li><a href="#">Tênis</a></li>
+        <li><a href="#">Camisetas</a></li>
+        <li><a href="#">Jaquetas</a></li>
+        <li><a href="#">Bolas e Tabelas</a></li>
+        <li><a href="#">Bonés</a></li>
+        <li><a href="#">Bermudas</a></li>
+        <li><a href="#">Chinelos</a></li>
+        <li><a href="#">Meias</a></li>
+        <li><a href="#">Infantil</a></li>
+        <li><a href="#">Acessórios</a></li>
+        <li><a href="#">Lançamentos</a></li>
+        <li><a href="#">Ofertas</a></li>
+      </ul>
+    </nav>
 
-Não se preocupe em copiar os conteúdos ou em deixá-los bonitos.
-Lembre-se: HTML é sobre organizar o nosso conteúdo de uma forma semântica. 
+    <figure>
+      <img
+      alt="Produtos NBA Playoffs - Regatas Swingman - Clique aqui para comprar agora"
+      src="header_image.jpg"/>
 
-Entrega:
- - Fazer fork do repositório pro seu usuário do github (caso já tenha feito o fork desse repositório, 
-   não precisa fazer novamente. Faça a atualização do fork pra ter os novos arquivos da aula)
- - Fazer o clone do repositório "forkado" da sua conta do github para a sua máquina
- - Colocar a resolução do exercício nesse arquivo (aulas-html/exercicios/aula2/index.html)
- - Dar git push das alterações
- - Abrir um pull request para o repositório original (da Womakers)
- - Acompanhar o prazo e marcar a entrega no Classroom
--->
+      <figcaption>Clique aqui para comprar <a href="Regatas.html">Regatas Swingman</a></figcaption>
+    </figure>
+    </header>
+
+  <main>
+    <section>
+      <h2>A LOJA OFICIAL DA NBA NO BRASIL</h2>
+
+      <article>
+        <ul>
+          <li><a href="#">Atlanta Hawks</a></li>
+          <li><a href="#">Brooklyn Nets</a></li>
+          <li><a href="#">Chicago Bulls</a></li>
+          <li><a href="#">Detroit Pistons</a></li>
+          <li><a href="#">Miami Heat</a></li>
+          <li><a href="#">New York Knicks</a></li>
+          <li><a href="#">Philadelfia 76ers</a></li>
+          <li><a href="#">Washington Wizards</a></li>
+          <li><a href="#">Denver Nuggets</a></li>
+          <li><a href="#">Houston Rockets</a></li>
+          <li><a href="#">Los Angeles Lakers</a></li>
+          <li><a href="#">Minnesota Timberwolves</a></li>
+          <li><a href="#">Thunder OKC</a></li>
+          <li><a href="#">Portland Trail Blazzers</a></li>
+          <li><a href="#">San Antonio Spurs</a></li>
+          <li><a href="#">Boston Celtics</a></li>
+          <li><a href="#">Charlotte Hornets</a></li>
+          <li><a href="#">Cleveland Cavaliers</a></li>
+          <li><a href="#">Indiana Pacers</a></li>
+          <li><a href="#">Milwalke Bucks</a></li>
+          <li><a href="#">Orlando Magic</a></li>
+          <li><a href="#">Toronto Raptors</a></li>
+          <li><a href="#">Dallas Mavericks</a></li>
+          <li><a href="#">Los Angeles Clippers</a></li>
+          <li><a href="#">Golden State Warriors</a></li>
+          <li><a href="#">Memphis Grizzlies</a></li>
+          <li><a href="#">New Orleans Pelicans</a></li>
+          <li><a href="#">Phoenix Suns</a></li>
+          <li><a href="#">Sacramento Kings</a></li>
+          <li><a href="#">Utah Jazz</a></li>
+
+        </ul>
+      </article>
+    </section>
+
+      <section>
+        <h2>PRODUTOS QUE BAIXARAM DE PREÇO</h2>
+        <article>
+          <h3><a href="#">TÊNIS NIKE PRECISION IV MASCULINO</a> </h3>
+          <p>Frete grátis</p>
+          <p>R$279,99</p>         
+        </article>
+
+        <article>
+          <h3><a href="#">CHINELO RIDER FULL 86 NBA SLIDE AD MASCULINO</a></h3>
+          <p>R$34,99</p>
+        </article>
+
+        <article>
+          <h3><a href="#">TÊNIS ADIDAS PRÓ MODEL 2G MASCULINO</a></h3>
+          <p>Frete Grátis</p>
+          <p>R$229,99</p>
+        </article>
+
+      </section>
+
+  </main>
+  
+  <footer>
+    <section>
+      <h4>AJUDA</h4>
+      <ul>
+        <li><a href="#">Entregas</a></li>
+        <li><a href="#">Pagamentos</a></li>
+        <li><a href="#">Trocas e Devoluções</a></li>
+        <li><a href="#">Meus Pedidos</a></li>
+        <li><a href="#">Central de Relacionamento</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h4>INSTITUCIONAL</h4>
+      <ul>
+        <li><a href="#">Sobre Loja NBA</a></li>
+        <li><a href="#">Política de Privacidade</a></li>
+        <li><a href="#">Regulamentos</a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h4>COMPRE PELO TELEFONE</h4>
+      <p>(11) 3070-6997</p>
+    </section>
+
+    <p>Copyright © 2020 Loja NBA. TODOS OS DIREITOS RESERVADOS. As fotos aqui veiculadas, logotipo e marca são de propriedade do site www.nbabrasil.com.br. É vetada a sua reprodução, total ou parcial, sem a expressa autorização da administradora do site. Loja operada por Netshoes NS2.COM INTERNET S.A. Rua Vergueiro, 943 - Liberdade - CEP 01504-001 - São Paulo - SP CNPJ: 09.339.936/0001-16. - A inclusão no carrinho não garante o preço e/ou a disponibilidade do produto. Caso os produtos apresentem divergências de valores, o preço válido é o exibido na tela de pagamento. Vendas sujeitas a análise e disponibilidade de estoque.</p>
+
+  </footer>
+
+</body>
+</html>
